@@ -1,6 +1,6 @@
-title: "frontend_template"
-description: "A Template For Frontend Development."
-baseurl: "/frontend_template"
+title: "calculator"
+description: "A Simple Browser-Based Calculator."
+baseurl: "/calculator"
 url: "https://europanite.github.io"
 theme: minima
 markdown: kramdown

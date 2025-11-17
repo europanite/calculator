@@ -23,7 +23,7 @@
       "edgeToEdgeEnabled": true
     },
     "experiments": {
-      "baseUrl": "/frontend_template"
+      "baseUrl": "/calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png",
