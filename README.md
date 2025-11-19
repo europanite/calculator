@@ -1,13 +1,12 @@
 # [Calculator](https://github.com/europanite/calculator "Calculator")
 
-A simple Browser-Based Calculator. 
+[![GitHub Pages](https://github.com/europanite/calculator/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/calculator/actions/workflows/deploy-pages.yml)
 
 !["web_ui"](./assets/images/web_ui.png)
 
----
+ [PlayGround](https://europanite.github.io/calculator/)
 
-##  🚀 PlayGround
- [Calculator](https://europanite.github.io/calculator/)
+A simple Browser-Based Calculator. 
 
 ---
 
