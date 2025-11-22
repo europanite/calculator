@@ -182,21 +182,21 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.screen}>
+      <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
+        <Text
+          style={{
+            fontSize: 48,
+            fontWeight: "800",
+            marginBottom: 12,
+            color: "#c5c5c5ff",
+            textDecorationLine: "underline",
+          }}
+        >
+          Calculator
+        </Text>
+      </TouchableOpacity>
       <View style={[styles.contentContainer, { maxWidth: maxContentWidth }]}>
         <View style={styles.displayContainer}>
-          <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
-            <Text
-              style={{
-                fontSize: 24,
-                fontWeight: "800",
-                marginBottom: 12,
-                color: "#333333ff",
-                textDecorationLine: "underline",
-              }}
-            >
-              Calculator
-            </Text>
-          </TouchableOpacity>
           <Text
             style={styles.displayText}
             numberOfLines={1}
