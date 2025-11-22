@@ -5,6 +5,8 @@ import {
   Pressable,
   StyleSheet,
   useWindowDimensions,
+  TouchableOpacity,
+  Linking
 } from "react-native";
 
 type Operator = "+" | "-" | "×" | "÷";
@@ -176,10 +178,25 @@ export default function HomeScreen() {
     return [styles.button, styles.buttonDigit];
   };
 
+  const REPO_URL = "https://github.com/europanite/calculator";
+
   return (
     <View style={styles.screen}>
       <View style={[styles.contentContainer, { maxWidth: maxContentWidth }]}>
         <View style={styles.displayContainer}>
+          <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
+            <Text
+              style={{
+                fontSize: 24,
+                fontWeight: "800",
+                marginBottom: 12,
+                color: "#333333ff",
+                textDecorationLine: "underline",
+              }}
+            >
+              Calculator
+            </Text>
+          </TouchableOpacity>
           <Text
             style={styles.displayText}
             numberOfLines={1}
