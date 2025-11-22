@@ -1,5 +1,7 @@
 # [Calculator](https://github.com/europanite/calculator "Calculator")
 
+[![CI](https://github.com/europanite/calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/europanite/calculator/actions/workflows/ci.yml)
+[![docker](https://github.com/europanite/calculator/actions/workflows/docker.yml/badge.svg)](https://github.com/europanite/calculator/actions/workflows/docker.yml)
 [![GitHub Pages](https://github.com/europanite/calculator/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/calculator/actions/workflows/deploy-pages.yml)
 
 !["web_ui"](./assets/images/web_ui.png)
