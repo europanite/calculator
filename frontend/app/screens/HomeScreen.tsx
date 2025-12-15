@@ -192,7 +192,7 @@ export default function HomeScreen() {
             textDecorationLine: "underline",
           }}
         >
-          Calculator
+          React Native Calculator
         </Text>
       </TouchableOpacity>
       <View style={[styles.contentContainer, { maxWidth: maxContentWidth }]}>
